@@ -8,7 +8,7 @@ import (
 func main() {
 	// تعریف مسیر اصلی (/) و پاسخ به درخواست‌ها
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "Hello Go") 
+		fmt.Fprintln(w, " Hello Go ") 
 	})
 
 	// اجرای سرور روی پورت 8080
